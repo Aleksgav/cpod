@@ -1,3 +1,5 @@
+![](https://github.com/Aleksgav/cpod/workflows/phoenix/badge.svg)
+
 # Cookpod
 
 To start your Phoenix server:
