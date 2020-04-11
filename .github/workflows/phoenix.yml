@@ -1,3 +1,4 @@
+name: setup elixir
 on: push
 
 jobs:

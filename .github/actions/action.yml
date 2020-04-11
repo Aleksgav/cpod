@@ -1,2 +1,0 @@
-- name: Setup Elixir
-  uses: actions/setup-elixir@v1.2.0
