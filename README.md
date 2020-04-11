@@ -1,4 +1,4 @@
-![](https://github.com/Aleksgav/cpod/workflows/phoenix/badge.svg)
+![](https://github.com/Aleksgav/cpod/workflows/.github/workflows/phoenix.yml/badge.svg)
 
 # Cookpod
 
