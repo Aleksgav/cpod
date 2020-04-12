@@ -7,6 +7,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@master
+      - run: mix coveralls.github
       - uses: codecov/codecov-action@v1
         with:
           fail_ci_if_error: true # optional (default = false)
