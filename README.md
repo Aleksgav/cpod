@@ -1,4 +1,5 @@
 ![Tests](https://github.com/Aleksgav/cpod/workflows/setup%20elixir/badge.svg)
+![coverage](https://github.com/Aleksgav/cpod/workflows/coverage/badge.svg)
 
 # Cookpod
 
