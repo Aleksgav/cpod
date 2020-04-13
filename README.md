@@ -1,4 +1,7 @@
 # Cookpod
+![Tests](https://github.com/Aleksgav/cpod/workflows/setup%20elixir/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/Aleksgav/cpod/badge.svg?branch=master)](https://coveralls.io/github/Aleksgav/cpod?branch=master)
+[![codebeat badge](https://codebeat.co/badges/17d271e3-7078-4ccc-96cc-cf6549149667)](https://codebeat.co/projects/github-com-aleksgav-cpod-master)
 
 To start your Phoenix server:
 
