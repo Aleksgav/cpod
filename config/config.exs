@@ -18,6 +18,8 @@ config :cookpod, CookpodWeb.Endpoint,
   pubsub: [name: Cookpod.PubSub, adapter: Phoenix.PubSub.PG2],
   live_view: [signing_salt: "0tOxGO8U"]
 
+config :cookpod, CookpodWeb.Gettext, default_locale: "ru", locales: ~w(en ru)
+
 # Configures Elixir's Logger
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
@@ -25,6 +27,11 @@ config :logger, :console,
 
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
+
+config :phoenix, :template_engines,
+       slim: PhoenixSlime.Engine,
+       slime: PhoenixSlime.Engine,
+       slimleex: PhoenixSlime.LiveViewEngine # If you want to use LiveView
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
